@@ -1,0 +1,32 @@
+{
+	"accountEnabled": true,
+	"signInNames": [
+		{
+			"type": "emailAddress",
+			"value": "v-sudku@gmail.com"
+		}
+	],
+	"creationType": "LocalAccount",
+	"displayName": "Sudhir K",
+	"mailNickname": "sudku",
+	"passwordProfile": {
+		"password": "P@ssword!",
+		"forceChangePasswordNextLogin": false
+	},
+	"passwordPolicies": "DisablePasswordExpiration",
+	
+	
+	"city": "San Diego",
+	"country": null,
+	"facsimileTelephoneNumber": null,
+	"givenName": "Sudhir",
+	"mail": null,
+	"mobile": "12345",
+	"otherMails": [],
+	"postalCode": "92130",
+	"preferredLanguage": null,
+	"state": "California",
+	"streetAddress": null,
+	"surname": "Consumer",
+	"telephoneNumber": null
+}
