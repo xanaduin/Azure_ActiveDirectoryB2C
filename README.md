@@ -143,7 +143,6 @@ Both of these details are handled in the B2CGraphClient.SendGraphGetRequest(...)
 
 public async Task<string> SendGraphGetRequest(string api, string query)
 {
-    ...
 
     // For B2C user management, be sure to use the 1.6 Graph API version.
     HttpClient http = new HttpClient();
@@ -157,8 +156,6 @@ public async Task<string> SendGraphGetRequest(string api, string query)
     HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, url);
     request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", result.AccessToken);
     HttpResponseMessage response = await http.SendAsync(request);
-
-    ...
 
 ### Create
 
