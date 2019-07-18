@@ -3,14 +3,14 @@
 	"signInNames": [
 		{
 			"type": "emailAddress",
-			"value": "v-sudku@gmail.com"
+			"value": "abc@gmail.com"
 		}
 	],
 	"creationType": "LocalAccount",
 	"displayName": "Sudhir K",
 	"mailNickname": "sudku",
 	"passwordProfile": {
-		"password": "P@ssword!",
+		"password": "password",
 		"forceChangePasswordNextLogin": false
 	},
 	"passwordPolicies": "DisablePasswordExpiration",
